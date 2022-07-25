@@ -1,0 +1,5 @@
+paises = input('Hola, puedes pasarme una lista de paises? Separalos utilizando una coma')
+lista_paises = paises.split(', ')
+paises_unicos = set(lista_paises)
+paises_ordenados = sorted(paises_unicos)
+print(paises_unicos)
