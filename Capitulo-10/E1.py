@@ -1,9 +1,6 @@
-import tkinter as tk
 from tkinter import ttk
 import tkinter
 
-
-from numpy import var
 window = tk.Tk()
 
 def limpiar(event):
